@@ -1,0 +1,152 @@
+"#" JOGO DA VELHA COMENTA O TEXTO
+##########################################
+
+
+#print ("Hello World")
+#nome = input("Digite seu nome: ")
+#print ("Olá " + nome)
+
+
+###########################################
+
+
+#import math
+
+#solicita  ao usuario os comprimentos dos dois lados do triangulo
+#lado1 = float(input("Digite o comprimento do primeiro lado em cm: "))
+#lado2 = float(input("Digite o comprimento do segundo lado em cm:"))
+
+#calcule a hipotenusa usando o teorema de pitagoras
+
+#hipotenusa = math.sqrt(lado1**2 + lado2**2)
+
+#imprima o resultado
+
+#print("A hipotenusa é: ",hipotenusa, "cm")
+
+
+###########################################
+
+
+#num=int(input("Digte um número inteiro:"))
+
+#if num % 2==0:
+    #print("O número é par!")
+#else:
+    #print("O número é impar!")
+
+##########################################
+
+
+#dia="Domingo"
+
+#print(input("Digite um dia: "))
+
+#match dia:
+    #case "Sábado" | "Domingo":
+        #print("Final de Semana")
+    #case "Segunda":
+        #print("Segundona")
+    #case "Terça" | "Quarta" | "Quinta":
+        #print("Semana")
+    #case "Sexta":
+        #print("Sextouu!!")
+
+##########################################
+
+
+#for i in range(1,10):
+    #print(i)
+
+
+##########################################
+
+
+#for i in range(1,10,2):
+    #print(i)
+
+##########################################
+
+#for i in ("Um","Dois","Três"):
+    #print(i)
+
+##########################################
+
+#i = 0
+
+#while i <=10:
+    #print(i)
+
+    #i+=1
+
+
+##########################################
+
+#nome=""
+#lista=[]
+
+#while nome != "9":
+    #nome=input("Digite um  nome(9 termia):")
+    #lista.append(nome)
+
+#for nomes in lista:
+    #print(nomes)
+
+
+##########################################
+
+    # usando sorted (ordem alfabetica)
+#nome=""
+#lista=[]
+
+#while nome != "9":
+    #nome=input("Digite um  nome(9 termia):")
+    #lista.append(nome)
+
+#for nomes in sorted (lista):
+    #print(nomes)
+
+
+##########################################
+
+#def funcao():
+       # print("Estou na função")
+
+
+
+
+
+        #funcao()
+#########################################
+
+
+#def funcao(valor,numero):
+    #print("Multiplicação=" + str(valor*numero))
+
+
+
+
+#funcao(10,2)
+
+#########################################
+
+arquivo = "arquivo.txt"
+
+arq=open(arquivo,"w+")
+
+nome=input("Digite um nome: ")
+
+arq.write(nome)
+
+arq.close()
+
+########################################
+
+arquivo = "arquivo.txt"
+arq=open(arquivo,"r")
+print(arq.readlines())
+arq.close()
+
+
+#######################################
+
